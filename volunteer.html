@@ -9,8 +9,9 @@
         header { background: #006400; color: white; padding: 50px 20px; text-align: center; }
         section { padding: 40px 20px; max-width: 800px; margin: auto; }
         ul { list-style: none; padding: 0; }
-        li { background: white; margin: 15px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); font-size: 1.1em; }
-        a { color: #006400; text-decoration: none; }
+        li { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 20px; }
+        .logo { max-width: 80px; max-height: 80px; }
+        a { color: #006400; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
         .back { display: inline-block; margin-top: 30px; color: #006400; }
     </style>
@@ -19,9 +20,18 @@
     <header><h1>Volunteer Work</h1></header>
     <section>
         <ul>
-            <li><a href="http://www.aohgreenvillesc.org/">President, Ancient Order of Hibernians – Harp & Shamrock Division</a></li>
-            <li><a href="https://www.gvlstpatricks.com/">Greenville St. Patrick's Day Parade & Festival Committee</a></li>
-            <li><a href="https://www.stbaldricks.org/events/mypage/14391/2026">St. Baldrick's Foundation – Downtown Greenville Shaves</a></li>
+            <li>
+                <img src="https://aoh.com/wp-content/uploads/2023/03/AOH-Logo.png" alt="AOH Logo" class="logo">
+                <a href="http://www.aohgreenvillesc.org/">President, Ancient Order of Hibernians – Harp & Shamrock Division</a>
+            </li>
+            <li>
+                <img src="https://www.gvlstpatricks.com/wp-content/uploads/2024/02/logo.png" alt="GVL St Patricks Logo" class="logo"> <!-- adjust if needed -->
+                <a href="https://www.gvlstpatricks.com/">Greenville St. Patrick's Day Parade & Festival Committee</a>
+            </li>
+            <li>
+                <img src="https://www.stbaldricks.org/wp-content/uploads/2023/01/st-baldricks-logo.png" alt="St Baldricks Logo" class="logo">
+                <a href="https://www.stbaldricks.org/events/mypage/14391/2026">St. Baldrick's Foundation – Downtown Greenville Shaves</a>
+            </li>
         </ul>
         <p><a href="index.html" class="back">← Back to Home</a></p>
     </section>
